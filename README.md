@@ -18,7 +18,7 @@ This project provides a basic demo of deploying a Cloud9 instance with the AWS C
 
 1. Within `bin/cdk-cloud9.ts`, configure your AWS account ID and region:
 
-    ```json
+    ```js
     env: {
         account: '999999999999',
         region: 'us-west-2'
